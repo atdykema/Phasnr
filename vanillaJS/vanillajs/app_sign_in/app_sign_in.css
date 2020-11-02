@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+}
+
+a:hover{
+    animation: buttonHover ease .5s;
+    color: ivory;
+}
+
+main{
+    font-family: 'Raleway', sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    background: url(../pictures/phasnr_background_ps.png);
+    background-size: cover;
+    
+    padding: 0rem 5rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    padding-left: 8rem;
+    font-size: 1.2rem;
+    
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.g-signin2{
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@keyframes buttonHover{
+    0%{
+        color: inherit;
+    }
+    100%{
+        color: ivory;
+    }
+    
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}

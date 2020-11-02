@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+}
+
+a:hover{
+    animation: buttonHover ease .5s;
+    color: ivory;
+}
+
+main{
+    font-family: 'Raleway', sans-serif;
+}
+
+.landing{
+    min-height: 100vh;
+    background: url(../pictures/phasnr_background_ps.png);
+    background-size: cover;
+    
+    padding: 0rem 5rem;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    padding-left: 8rem;
+    font-size: 1.2rem;
+    
+}
+
+#logo{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.big-text{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    font-size: 7rem;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+    
+}
+
+svg{
+  animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+.g-signin2{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.sign-out-button{
+  position: absolute;
+  left: 92%;
+}
+
+
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+@keyframes upAndDown {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
+@-webkit-keyframes upAndDown {
+  0% { 
+    transform: translateY(0); 
+  }
+  100% { 
+    transform: translateY(-10px); 
+  }
+}
